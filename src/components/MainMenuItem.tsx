@@ -1,7 +1,7 @@
+import Link from 'next/link';
 import React from 'react';
 
 type MainMenuItemProps = {
-  children: string;
   href: string;
 };
 
@@ -9,11 +9,11 @@ const MainMenuItem: React.FC<MainMenuItemProps> = ({
   href,
   children,
 }) => (
-  <li>
-    <a href={href} className="p-2 block">
+  <Link href={href}>
+    <a className="py-2 px-4 block text-slate-600 hover:text-slate-900 border-b-2 border-b-transparent hover:border-b-violet-600">
       {children}
     </a>
-  </li>
+  </Link>
 );
 
 export default MainMenuItem;
