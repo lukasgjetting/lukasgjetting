@@ -28,4 +28,17 @@
     <p>An NPM package to easily add search functionality to your React app..</p>
     <p>You simply provide the hook with a list of objects and a list of properties to search in.</p>
   </div>
+  <h2>eslint-plugin-parentheses-single-line-jsx</h2>
+  <em><a href="https://github.com/lukasgjetting/eslint-plugin-parentheses-single-line-jsx">Code</a></em>
+  <br />
+  <br />
+  <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=TypeScript&message=TypeScript&label=&color=007ACC&labelColor=404040" alt="Typescript">
+  <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ESLint&message=ESLint&label=&color=4b32c3&labelColor=404040" alt="ESLint">
+  <br />
+  <br />
+  <div align="left">
+    <p>An ESLint plugin that provides a rule to enforce parentheses around single line JSX.</p>
+    <p>IMO, adding parentheses around JSX makes it easier to separate from other code.</p>
+    <p>For multiline JSX, we have <a href="https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md">react/jsx-wrap-multilines</a>. However, there is no such rule built-in for single line JSX.</p>
+  </div>
 </div>
