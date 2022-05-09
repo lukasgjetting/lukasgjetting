@@ -10,17 +10,15 @@ const Contact: NextPage = () => (
     <main>
       <div className="flex items-center">
         <div className="pl-8">
-          <span className="text-4xl font-bold">
-            Contact me
-          </span>
+          <h1 className="text-4xl font-bold">
+            Contact
+          </h1>
           <br />
-          <br />
-          <span className="text-xl font-extralight leading-relaxed">
+          <h2 className="text-xl font-extralight leading-relaxed">
             To get in touch, please use any of the methods listed below.
             <br />
             I am always happy to help in any way I can.
-          </span>
-          <br />
+          </h2>
           <br />
           <a href="mailto:hi@lukasgjetting.com" className="mb-5 flex items-center">
             <Image width={24} height={24} src="/icon-envelope.svg" alt="Envelope icon" />

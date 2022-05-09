@@ -9,14 +9,13 @@ const Home: NextPage = () => (
     <main>
       <div className="flex items-center">
         <div className="pl-8">
-          <span className="text-4xl font-bold">
+          <h1 className="text-4xl font-bold">
             Hi, I'm Lukas.
-          </span>
+          </h1>
           <br />
-          <br />
-          <span className="text-xl font-extralight leading-relaxed">
+          <h2 className="text-xl font-extralight leading-relaxed">
             I am a software developer who enjoys building products for people to use.
-          </span>
+          </h2>
         </div>
       </div>
     </main>

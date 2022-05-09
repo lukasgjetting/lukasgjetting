@@ -17,5 +17,6 @@
     "jsx-a11y/anchor-is-valid": "off",
     "operator-linebreak": ["error", "after"],
     "react/no-unescaped-entities": 0
-  }
+  },
+  "ignorePatterns": ["*.md"]
 }
