@@ -17,7 +17,9 @@ const App = ({ Component, pageProps }: AppProps) => (
           <MainMenuItem href="/contact">Contact</MainMenuItem>
         </div>
       </div>
-      <Component {...pageProps} />
+      <div className="w-full">
+        <Component {...pageProps} />
+      </div>
     </div>
   </>
 );
