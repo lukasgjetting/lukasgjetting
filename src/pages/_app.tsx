@@ -1,6 +1,5 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import Link from 'next/link';
 import Head from 'next/head';
 import MainMenuItem from '../components/MainMenuItem';
 
@@ -12,18 +11,10 @@ const App = ({ Component, pageProps }: AppProps) => (
     </Head>
     <div className="max-w-5xl mx-auto flex flex-col items-center">
       <div className="w-full flex items-center pt-4 pb-12">
-        <div className="flex-1 flex justify-end">
-          <MainMenuItem href="/projekter">Projekter</MainMenuItem>
-          <MainMenuItem href="/referencer">Referencer</MainMenuItem>
-        </div>
-        <Link href="/">
-          <a className="text-4xl font-mono font-light px-4">
-            Lukas Gjetting
-          </a>
-        </Link>
-        <div className="flex-1 flex">
+        <div className="flex-1 flex justify-center">
+          <MainMenuItem href="/">Home</MainMenuItem>
           <MainMenuItem href="/blog">Blog</MainMenuItem>
-          <MainMenuItem href="/kontakt">Kontakt</MainMenuItem>
+          <MainMenuItem href="/contact">Contact</MainMenuItem>
         </div>
       </div>
       <Component {...pageProps} />

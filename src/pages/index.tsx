@@ -1,28 +1,21 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import FadingLightbulb from '../components/FadingLightbulb';
 
 const Home: NextPage = () => (
   <div>
     <Head>
-      <title>Forside — Lukas Gjetting</title>
+      <title>Home — Lukas Gjetting</title>
     </Head>
     <main>
       <div className="flex items-center">
-        <FadingLightbulb />
         <div className="pl-8">
           <span className="text-4xl font-bold">
-            Har du en god ide?
+            Hi, I'm Lukas.
           </span>
           <br />
+          <br />
           <span className="text-xl font-extralight leading-relaxed">
-            Jeg hjælper virksomheder og iværksættere
-            <br />
-            med at omsætte ideer til virkelighed.
-            <br />
-          </span>
-          <span className="text-xl font-extralight pt-4 block">
-            Skal vi finde en løsning?
+            I am a software developer who enjoys building products for people to use.
           </span>
         </div>
       </div>

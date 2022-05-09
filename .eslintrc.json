@@ -15,6 +15,7 @@
     }],
     "react/jsx-props-no-spreading": "off",
     "jsx-a11y/anchor-is-valid": "off",
-    "operator-linebreak": ["error", "after"]
+    "operator-linebreak": ["error", "after"],
+    "react/no-unescaped-entities": 0
   }
 }
