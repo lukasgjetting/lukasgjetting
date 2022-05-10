@@ -18,9 +18,12 @@ type BlogPostMeta = {
   excerpt: string;
   releaseDate: Date;
   markdown: string;
+  published: boolean;
 };
 
-const getBlogPosts = (): BlogPost[] => {
+const getBlogPosts = (options?: {
+  includeDraft?: boolean;
+}): BlogPost[] => {
   const postsPath = path.join(process.cwd(), 'posts');
 
   const files = fs.readdirSync(postsPath);
@@ -35,9 +38,11 @@ const getBlogPosts = (): BlogPost[] => {
       title: metaData.data.title,
       excerpt: metaData.data.excerpt,
       releaseDate: metaData.data.releaseDate,
+      published: metaData.data.published,
       markdown: metaData.content,
     };
   })
+    .filter((m) => options?.includeDraft || m.published)
     .sort((a, b) => b.releaseDate.valueOf() - a.releaseDate.valueOf())
     .map<BlogPost>((metaData) => ({
     slug: metaData.slug,
