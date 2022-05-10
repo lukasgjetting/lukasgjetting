@@ -60,9 +60,13 @@ const SingleBlogPost: NextPage<SingleBlogPostProps> = ({ blogPost }) => {
             <h2 className="text-xl font-extralight leading-relaxed">
               {blogPost.excerpt}
             </h2>
-            <br />
-            {/* eslint-disable-next-line react/no-danger */}
-            <div dangerouslySetInnerHTML={{ __html: blogPost.htmlContent }} />
+            <article className="prose lg:prose-xl pb-8">
+              <div
+              // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: blogPost.htmlContent }}
+              />
+              <em>— Lukas</em>
+            </article>
           </div>
         </div>
       </main>
