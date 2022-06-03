@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-    siteUrl: 'https://lukasgjetting.dk',
+    siteUrl: 'https://lukasgjetting.com',
     generateRobotsTxt: true,
 };
 
