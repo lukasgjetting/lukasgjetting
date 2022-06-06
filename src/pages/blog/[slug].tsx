@@ -49,6 +49,7 @@ const SingleBlogPost: NextPage<SingleBlogPostProps> = ({ blogPost }) => {
           {' '}
           — Lukas Gjetting
         </title>
+        <meta name="description" content={blogPost.excerpt} />
       </Head>
       <main>
         <div className="flex items-center">
