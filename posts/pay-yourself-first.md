@@ -1,7 +1,7 @@
 ---
 title: "Pay yourself first... with time"
-excerpt: When you're exhausted, it can be hard to start working on your own projects.
-releaseDate: 2022-06-05
+excerpt: When you're exhausted, it can be hard to start working on your side projects. So why not work on those projects first?
+releaseDate: 2022-06-06
 published: true
 ---
 
@@ -13,11 +13,11 @@ A lot of people, including myself, want to achieve more than what they're curren
 
 After working at a job for a full day, it's easy to not have the energy to do any productive work. It's way easier to just watch TV, scroll social media or do some other mindless activity.
 
-Even worse, justifying it to ourselves is equally easy. We can easily convince ourselves that today wasn't the right day to do it anyways. It's probably better to wait until tomorrow anyways.
+Even worse, justifying it to ourselves is equally easy. We can easily convince ourselves that today wasn't the right day to do it, anyways. It's probably better to wait until tomorrow.
 
 > I don't feel like doing anything right now. Maybe tomorrow.  
 
-´**– Most people**, never getting anything done
+**– Most people**, never getting anything done
 
 ## Intentionally being uncomfortable
 
@@ -35,7 +35,7 @@ We obviously don't want to be fired. To avoid that situation, I'm sure we would 
 
 The reason we find it easier to find energy for our job, as opposed to our side project, is that we have an external party who is expecting us to do it. Also, the fact that there will be very real negative consequences if we don't.
 
-These are what I would call "time creditors". They are people and corporations that you owe your time, energy and focus to.
+These are what I would call "time creditors". They are entities that you owe your time, energy, and focus to.
 
 When we have a creditor to worry about, it's much easier to buckle up and get stuff done.
 
@@ -43,4 +43,4 @@ When we have a creditor to worry about, it's much easier to buckle up and get st
 
 I'm not arguing people should do a bad job at work because they were up all night working on their side projects. You still have a very real responsibility to show up and be productive.
 
-Also, it might be hard to implement fully in the real world. However, I think it's an interesting thought. I wonder what would happen if we all started _paying_ ourselves first.
+Also, it might be hard to implement fully in the real world. However, I think it's an interesting thought. I wonder what would happen if we all started _paying ourselves first_.
