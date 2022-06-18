@@ -1,6 +1,7 @@
 import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
+import React from 'react';
 import getBlogPosts, { BlogPost } from '../utils/getBlogPosts';
 
 export const getStaticProps: GetStaticProps = () => ({
@@ -26,7 +27,7 @@ const Blog: NextPage<{ blogPosts: BlogPost[] }> = ({ blogPosts }) => (
           </h2>
           <br />
           {blogPosts.map((b, index) => (
-            <>
+            <React.Fragment key={b.slug}>
               <Link href={`/blog/${b.slug}`} passHref>
                 <a className="block -mx-2 -my-1 px-2 py-1 hover:bg-gray-700 hover:bg-opacity-5">
                   <h3 className="text-xl">{b.title}</h3>
@@ -41,7 +42,7 @@ const Blog: NextPage<{ blogPosts: BlogPost[] }> = ({ blogPosts }) => (
               {index < blogPosts.length - 1 && (
                 <hr className="my-2" />
               )}
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>
