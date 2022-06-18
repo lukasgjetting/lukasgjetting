@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Script from 'next/script';
 import MainMenuItem from '../components/MainMenuItem';
+import ConvertKitForm from '../components/ConvertKitForm';
 
 const App = ({ Component, pageProps }: AppProps) => (
   <>
@@ -32,12 +33,6 @@ const App = ({ Component, pageProps }: AppProps) => (
         <Component {...pageProps} />
       </div>
     </div>
-    <footer className="mt-12">
-      <hr className="mb-8" />
-      <div className="w-full flex flex-col items-center">
-        <script async data-uid="9d3464c9ee" src="https://astounding-designer-3508.ck.page/9d3464c9ee/index.js" />
-      </div>
-    </footer>
   </>
 );
 

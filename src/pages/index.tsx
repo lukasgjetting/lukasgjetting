@@ -15,6 +15,9 @@ const Home: NextPage = () => (
           <br />
           <h2 className="text-xl font-extralight leading-relaxed">
             I am a software developer who enjoys building products for people to use.
+            <br />
+            <br />
+            On here, I write about my journey and my thoughts.
           </h2>
         </div>
       </div>

@@ -2,6 +2,7 @@ import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
+import ConvertKitForm from '../components/ConvertKitForm';
 import getBlogPosts, { BlogPost } from '../utils/getBlogPosts';
 
 export const getStaticProps: GetStaticProps = () => ({
@@ -17,7 +18,7 @@ const Blog: NextPage<{ blogPosts: BlogPost[] }> = ({ blogPosts }) => (
     </Head>
     <main>
       <div className="flex items-center">
-        <div className="pl-8">
+        <div>
           <h1 className="text-4xl font-bold">
             Blog
           </h1>
@@ -47,6 +48,7 @@ const Blog: NextPage<{ blogPosts: BlogPost[] }> = ({ blogPosts }) => (
         </div>
       </div>
     </main>
+    <ConvertKitForm />
   </div>
 );
 

@@ -1,5 +1,6 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
+import ConvertKitForm from '../../components/ConvertKitForm';
 import getBlogPosts, { BlogPost } from '../../utils/getBlogPosts';
 
 type SingleBlogPostProps = {
@@ -71,6 +72,7 @@ const SingleBlogPost: NextPage<SingleBlogPostProps> = ({ blogPost }) => {
           </div>
         </div>
       </main>
+      <ConvertKitForm />
     </div>
   );
 };
