@@ -3,7 +3,6 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Script from 'next/script';
 import MainMenuItem from '../components/MainMenuItem';
-import ConvertKitForm from '../components/ConvertKitForm';
 
 const App = ({ Component, pageProps }: AppProps) => (
   <>

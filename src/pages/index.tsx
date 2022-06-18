@@ -1,7 +1,15 @@
-import type { NextPage } from 'next';
+import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
+import BlogPostItem from '../components/BlogPostItem';
+import getBlogPosts, { BlogPost } from '../utils/getBlogPosts';
 
-const Home: NextPage = () => (
+export const getStaticProps: GetStaticProps = () => ({
+  props: {
+    blogPosts: getBlogPosts(),
+  },
+});
+
+const Home: NextPage<{ blogPosts: BlogPost[] }> = ({ blogPosts }) => (
   <div>
     <Head>
       <title>Home — Lukas Gjetting</title>
@@ -13,12 +21,14 @@ const Home: NextPage = () => (
             Hi, I'm Lukas.
           </h1>
           <br />
-          <h2 className="text-xl font-extralight leading-relaxed">
+          <span className="text-xl font-extralight leading-relaxed">
             I am a software developer who enjoys building products for people to use.
             <br />
             <br />
             On here, I write about my journey and my thoughts.
-          </h2>
+          </span>
+          <span className="block text-3xl font-bold mt-8 mb-4">Latest from the blog</span>
+          <BlogPostItem blogPost={blogPosts[0]} />
         </div>
       </div>
     </main>

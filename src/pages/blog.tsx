@@ -1,7 +1,7 @@
 import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
-import Link from 'next/link';
 import React from 'react';
+import BlogPostItem from '../components/BlogPostItem';
 import ConvertKitForm from '../components/ConvertKitForm';
 import getBlogPosts, { BlogPost } from '../utils/getBlogPosts';
 
@@ -29,17 +29,7 @@ const Blog: NextPage<{ blogPosts: BlogPost[] }> = ({ blogPosts }) => (
           <br />
           {blogPosts.map((b, index) => (
             <React.Fragment key={b.slug}>
-              <Link href={`/blog/${b.slug}`} passHref>
-                <a className="block -mx-2 -my-1 px-2 py-1 hover:bg-gray-700 hover:bg-opacity-5">
-                  <h3 className="text-xl">{b.title}</h3>
-                  <div className="font-light">
-                    {b.excerpt}
-                  </div>
-                  <div className="text-sm mt-2 italic">
-                    {b.releaseDate}
-                  </div>
-                </a>
-              </Link>
+              <BlogPostItem blogPost={b} />
               {index < blogPosts.length - 1 && (
                 <hr className="my-2" />
               )}
