@@ -23,7 +23,7 @@ As I mentioned earlier, a lot of people find it hard to give feedback. The faste
 
 This is especially powerful if you emphasize how you are aware that you're not perfect but really want to improve.
 
-It's the same as receiving App Store reviews (coincidentally, I recently wrote an article about [how to improve your app store rating](https://getbravoapps.com/blog/how-to-improve-your-app-store-rating)). The easiest way to receive more ratings and reviews is to **ask** for more.
+It's the same as receiving App Store reviews (coincidentally, I recently wrote an article about [how to improve your app store rating](https://bravoapps.dk/blog/saadan-forbedrer-du-din-app-store-rating)). The easiest way to receive more ratings and reviews is to **ask** for more.
 
 ## Reacting to feedback
 

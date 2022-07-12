@@ -57,7 +57,7 @@ I want to solve that with _BravoApps_. It is a productized service that offers _
 
 You know exactly what you are going to pay. And you will get the app development work you need.
 
-I have just released a landing page for it: [BravoApps](https://getbravoapps.com).
+I have just released a landing page for it: [BravoApps](https://bravoapps.dk).
 
 If you want to follow along with the journey, feel free to follow me on Twitter [@lukasgjetting](https://twitter.com/lukasgjetting). I will be sharing insights and numbers on an ongoing basis.
 
